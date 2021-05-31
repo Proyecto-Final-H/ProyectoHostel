@@ -27,6 +27,7 @@ hs_err_pid*.log
 # Package Files #
 *.war
 *.ear
+*.jar
 
 dependency-reduced-pom.xml
 pom.xml.tag
@@ -35,7 +36,8 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 
 .clover/
-
+*.jdproj
+JArchitectOut/
 
 rebel.xml
 translations.pot
