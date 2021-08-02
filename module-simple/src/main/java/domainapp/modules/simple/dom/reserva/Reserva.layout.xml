@@ -16,6 +16,10 @@
                                 <c:property id="huesped" namedEscaped="true"/>
                                 <c:property id="fechaIn" namedEscaped="true"/>
                                 <c:property id="estadia" namedEscaped="true"/>
+                                <c:property id="habitacion" namedEscaped="true"/>
+                                
+                                <c:property id="numHues" namedEscaped="true"/>
+
                             </c:fieldSet>
                         </bs3:col>
                     </bs3:row>
