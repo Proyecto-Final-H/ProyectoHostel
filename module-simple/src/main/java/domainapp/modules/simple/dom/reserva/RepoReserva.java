@@ -159,6 +159,9 @@ public class RepoReserva {
     		
     		)
  {
+    	
+    	Reserva mireserva = repositorio.instantiate(Reserva.class);
+    	mireserva.setHuesped(huesped);
     	mireserva.setFechaIn(fechaIn);
     	mireserva.setFechaSal(new LocalDate(fechaIn.plusDays(estadia)));
     	mireserva.setEstadia(estadia);
